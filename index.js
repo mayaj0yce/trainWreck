@@ -41,8 +41,12 @@ inquirer
     console.log('An error occurred:', error);
   });
 
-// Function to create the logo based on the provided parameters
-// function createLogo(initials, txtColor, shape, color) {
-  // Code to generate the SVG logo based on the parameters
-  // ...
-// }
+
+
+.then((answers) => {
+  const htmlPageContent = generateHTML(answers);
+
+  fs.writeFile('logo.svg', htmlPageContent, (err) =>
+    err ? console.log(err) : console.log('created.')
+  );
+});
