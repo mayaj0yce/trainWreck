@@ -1,4 +1,6 @@
 const inquirer = require('inquirer');
+const fs = require('fs');
+const createLogo = require('./shapes.js');
 
 // Prompt the user for logo details
 inquirer
@@ -32,10 +34,15 @@ inquirer
     },
   ])
   .then((answers) => {
-    // Call the createLogo function with the provided answers
-    // const logoSvg = createLogo(answers.initials, answers.txtColor, answers.shape, answers.color);
-    // console.log(logoSvg);
+ 
+
+   
+     const logoSvg = createLogo(answers.initials, answers.txtColor, answers.shape, answers.color);
+    console.log(logoSvg);
     console.log(answers);
+    fs.writeFile('logo.svg', logoSvg, (err) =>
+    err ? console.log(err) : console.log('created.')
+  );
   })
   .catch((error) => {
     console.log('An error occurred:', error);
@@ -43,10 +50,15 @@ inquirer
 
 
 
-.then((answers) => {
-  const htmlPageContent = generateHTML(answers);
+// .then((answers) => {
+//   const htmlPageContent = generateHTML(answers);
 
-  fs.writeFile('logo.svg', htmlPageContent, (err) =>
-    err ? console.log(err) : console.log('created.')
-  );
-});
+//   fs.writeFile('logo.svg', htmlPageContent, (err) =>
+//     err ? console.log(err) : console.log('created.')
+//   );
+// });
+ //this should connect to shapes.js for the function. how do i call this and then push it?
+    //can i do the test function as well (office hours)
+
+
+    //fix the svg 

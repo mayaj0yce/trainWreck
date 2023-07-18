@@ -27,3 +27,5 @@ function createLogo(initials, txtColor, shape, color) {
 
     return svg;
 }
+
+module.exports = createLogo ;
