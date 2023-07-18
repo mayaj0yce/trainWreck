@@ -1,7 +1,4 @@
 function createLogo(initials, txtColor, shape, color) {
-    // if (initials.length > 3) {
-    //     return "Invalid initials. Please provide up to three characters.";
-    // }
 
     var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="200" height="300">';
 
