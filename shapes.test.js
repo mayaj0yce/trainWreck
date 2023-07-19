@@ -13,3 +13,25 @@ describe('circle', () => {
 })
 
 
+
+describe('square', () => {
+    test('should create a square svg', () => {
+        var expectedSvg = 'RUN TEXT HERE';
+        var square = createLogo('hjs', 'yellow', 'circle', 'blue');
+
+        expect(expectedSvg).toEqual(square);
+
+
+    })
+})
+describe('triangle', () => {
+    test('should create a triangle svg', () => {
+        var expectedSvg = 'RUN TEXT HERE';
+        var triangle = createLogo('hjs', 'yellow', 'triangle', 'blue');
+
+        expect(expectedSvg).toEqual(triangle);
+
+
+    })
+})
+
