@@ -1,7 +1,7 @@
 # trainWreck
 (initially called LOGOMOTIVE and changed when I needed a duplicate of my code.)
 
-![WALK THROUGH](https://www.youtube.com/watch?v=sKZPZLPze4c) 
+[WALK THROUGH](https://www.youtube.com/watch?v=sKZPZLPze4c) 
 
 
 [GITHUB LINK](https://github.com/mayaj0yce/trainWreck.git)
