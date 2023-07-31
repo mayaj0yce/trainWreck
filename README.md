@@ -5,8 +5,7 @@ WALK THROUGH
 https://www.youtube.com/watch?v=sKZPZLPze4c 
 
 
-'GITHUB LINK'
-<https://github.com/mayaj0yce/trainWreck.git>
+GITHUB LINK = 'https://github.com/mayaj0yce/trainWreck.git'
 
 
 As a user I want an application that will allow me to create a new logo in just a few steps.
