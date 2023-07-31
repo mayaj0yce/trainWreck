@@ -1,14 +1,14 @@
 # trainWreck
 (initially called LOGOMOTIVE and changed when I needed a duplicate of my code.)
 
-WALK THROUGH 
-https://www.youtube.com/watch?v=sKZPZLPze4c 
+![WALK THROUGH](https://www.youtube.com/watch?v=sKZPZLPze4c) 
 
 
-[GITHUB LINK]
-(https://github.com/mayaj0yce/trainWreck.git)
+![GITHUB LINK](https://github.com/mayaj0yce/trainWreck.git)
 
 FINAL PRODUCT
+
+
 ![Screenshot (52)](https://github.com/mayaj0yce/trainWreck/assets/129634010/8b9fa984-5330-4501-8ed8-7f747793d468)
 
 
