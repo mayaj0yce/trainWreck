@@ -1,0 +1,16 @@
+{
+  "name": "trainwreck",
+  "version": "1.0.0",
+  "description": "logoMotive redo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "mayaj0yce",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^29.6.1"
+  }
+}
