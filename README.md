@@ -12,6 +12,13 @@ FINAL PRODUCT
 ![Screenshot (52)](https://github.com/mayaj0yce/trainWreck/assets/129634010/8b9fa984-5330-4501-8ed8-7f747793d468)
 
 
+PASS TESTS
+
+![Screenshot (55)](https://github.com/mayaj0yce/trainWreck/assets/129634010/e175288e-bd03-4b91-84b9-22928d8953ac)
+
+![Screenshot (54)](https://github.com/mayaj0yce/trainWreck/assets/129634010/fdef343e-b6a0-40b8-8ae9-0a2d7794cc68)
+
+
 
 As a user I want an application that will allow me to create a new logo in just a few steps.
 
