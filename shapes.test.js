@@ -16,8 +16,8 @@ describe('circle', () => {
 
 describe('square', () => {
     test('should create a square svg', () => {
-        var expectedSvg = 'RUN TEXT HERE';
-        var square = createLogo('hjs', 'yellow', 'circle', 'blue');
+        var expectedSvg = '<svg xmlns="http://www.w3.org/2000/svg" width="200" height="300"><rect x="20" y="20" width="160" height="260" fill="blue"/><text x="100" y="180" text-anchor="middle" fill="yellow">hjk</text></svg>';
+        var square = createLogo('hjk', 'yellow', 'square', 'blue');
 
         expect(expectedSvg).toEqual(square);
 

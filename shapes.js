@@ -18,7 +18,7 @@ function createLogo(initials, txtColor, shape, color) {
     }
 
     // Add the initials as text
-    svg += '<text x="100" y="180" text-anchor="middle" fill="' + txtColor + '">' + initials + '</text>';
+    svg += '<text x="100" y="150" text-anchor="center" fill="' + txtColor + '">' + initials + '</text>';
 
     svg += '</svg>';
 
